@@ -39,7 +39,7 @@ def save_data(stars_data):
     df = pd.DataFrame(stars_data)
     df.to_csv('stars_data.csv', mode='a', header=False)  
 
-api_key = 'PewrA/MGCHxgJ7ncmaC0Tw==2xzQLCjmoMvC6alK'
+api_key = 'PewrA/MGCHxgJ7ncmaC0Tw==2xzQLCjmoMvC6alK' # will be removed after project submission
 all_stars = []
 for constellation in constellations:
     stars_data = fetch_stars(api_key, constellation)

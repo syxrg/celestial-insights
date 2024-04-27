@@ -5,8 +5,8 @@ scaler = load('scaler.joblib')
 knn = load('knn_model.joblib')
 
 test_data = pd.DataFrame({
-    'right_ascension': [14.24521111111111], 
-    'declination': [30.0]
+    'right_ascension': [180], 
+    'declination': [0]
 })
 
 test_features = scaler.transform(test_data)
