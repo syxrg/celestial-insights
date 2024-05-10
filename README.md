@@ -8,6 +8,10 @@ Celestial Insights is an interactive web application designed to provide educati
 
 Stars have fascinated humanity for millennia! This application is intended for educational purposes in the field of astronomy. It can be used by educators in classroom settings, students for learning and projects, amateur astronomers, or anyone interested in learning more about the stars and constellations. The interactive features allow users to explore celestial data visually, making complex information more digestible and interesting.
 
+## Link to Project
+
+[Celestial Insights](https://serenag72.shinyapps.io/celestial-insights/)
+
 ## Setup Instructions
 
 1. **Clone the repository**:
