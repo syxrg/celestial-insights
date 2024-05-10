@@ -10,7 +10,7 @@ Stars have fascinated humanity for millennia! This application is intended for e
 
 ## Link to Project
 
-[Celestial Insights](https://serenag72.shinyapps.io/celestial-insights/)
+Deployed! Here is [Celestial Insights](https://serenag72.shinyapps.io/celestial-insights/) :)
 
 ## Setup Instructions
 
