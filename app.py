@@ -247,7 +247,8 @@ page_c_content = ui.page_fluid(
 
 page_d_content = ui.page_fluid(
     ui.card(
-        ui.card_header(ui.HTML("""<h1>CS498 Final Project (sxgong2)</h1>""")),
+        ui.card_header(
+            ui.HTML("""<h1>Celestial Insights by Serena Gong</h1>""")),
         ui.markdown("""
                 <p>Celestial Insights is an interactive web application made using Shiny by Python designed to provide educational insights into constellations using data-driven methods. There are 3 features, comparison of stars across constellations, stars within constellations, and predicting a star's constellation. This part allows users to input data about stars and utilizes a machine learning model to predict which constellation a given star might belong to based on its celestial coordinates.</p>
                 <h5><u>Data Source:</u></h5>
@@ -284,7 +285,7 @@ app_ui = ui.page_navbar(
         ),
         ui.h4("✩₊˚.⋆☾⋆⁺₊", {
               "style": "margin-top: 0.3em; margin-bottom: 0.3em;"}),
-        ui.p("Made by Serena Gong (sxgong2) for CS498 Spring 2024, E2E Data Science", {
+        ui.p("Made by Serena Gong", {
              "class": "footer-text"})
     )
 )
